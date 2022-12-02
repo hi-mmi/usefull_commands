@@ -15,3 +15,10 @@ To activate virtual environment in VS code:
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
 ```
+
+Jupyter Notebook keep connecting to kernel in VS code? 
+Deactive your virtual environment and run following commands:
+
+```
+python -m pip install 'traitlets==4.3.3' --force-reinstall
+```
